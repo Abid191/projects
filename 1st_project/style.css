@@ -1,0 +1,214 @@
+* {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif
+}
+
+.first {
+    background-image: url(data/images/donation3.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+
+}
+
+.second {
+    text-align: center;
+    padding: 230px 450px;
+}
+
+.h {
+    color: rgb(255, 255, 255);
+    font-weight: 1200px;
+    font-size: 50px;
+
+}
+
+.h-two {
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(234, 234, 255);
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: rgba(247, 91, 13, 0.916);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 18px;
+    font-size: 16px;
+}
+
+.third {
+    margin-top: 80px;
+    text-align: center;
+    padding: 0% 450px;
+}
+
+.h-one {
+    margin-top: 30px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.h-twoo {
+    margin-top: 26px;
+    font-size: 18px;
+    color: rgb(100, 91, 91);
+}
+
+.third-one {
+    gap: 10px;
+}
+
+.four {
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: cornflowerblue;
+    margin-right: 5px;
+
+}
+
+.btnn {
+    padding: 50px 50px;
+    font-size: 36px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+}
+
+.btn-one {
+    padding: 50px 50px;
+    margin-right: 20px;
+    font-size: 36px;
+    border-radius: 5px;
+    border-color: red;
+    background-color: rgb(250, 53, 92);
+}
+
+.h-four {
+    margin-top: 50px;
+}
+
+.h-five {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0 100px;
+}
+
+.vi-zero {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    text-align: center;
+    padding: 0% 120px;
+
+}
+
+.vi-one {
+    padding: 5% 100px;
+    background-color: rgb(125, 213, 184);
+    border-radius: 5px;
+}
+
+.vi-two {
+    padding: 5% 100px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.vi-three {
+    padding: 5% 100px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.new {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800px;
+    font-size: 40;
+}
+
+.new-two {
+    font-size: 16px;
+}
+
+.ice {
+    display: flex;
+    margin-top: 120px;
+    gap: 40px;
+    padding: 0% 100px;
+   
+}
+.ice-zero{
+    padding: 0% 70px;
+}
+
+
+.ice-one {
+    margin-top: 40px;
+    font-size: 2.5vw;
+    font-weight: 800px;
+    margin-bottom: 40px;
+}
+.ice-two{
+    color: rgb(87, 82, 78);
+}
+.ice-tree {
+    padding: 0% 100px;
+    
+}
+
+.btn-two {
+    margin-top: 30px;
+    background-color: rgba(247, 91, 13, 0.916);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 18px;
+    font-size: 16px;
+}
+.oma{
+    margin-top: 70px;
+    text-align: center;
+
+}
+.oma-one{
+    font-size: 2.5vw;
+    margin-bottom: 30px;
+}
+.oma-two{
+    font-size: 16px;
+    padding: 0% 450px;
+    color: rgb(87, 82, 78);
+}
+.sub{
+    margin-top: 40px;
+    text-align: center;
+    background-color: peachpuff;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 40px;
+}
+.sub-one{
+    padding: 15px 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(87, 82, 78); ;
+}
+.nav{
+    margin-top: 80px;
+    padding: 80px;
+    background: black;
+    text-align: center;
+}
+.nav-one{
+    color: peachpuff;
+    font-size: 2.5vw;
+}
+.nav-two{
+    margin-top: 20px;
+    color: aliceblue;
+}
+
