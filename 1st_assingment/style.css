@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+}
+
+.one {
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+.one-zero {
+    padding: 230px;
+    text-align: right;
+
+}
+
+.one-one {
+    font-size: 4.5vw;
+    font-weight: 800px;
+}
+
+.one-two {
+    margin-top: 30px;
+    color: rgb(89, 80, 71);
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 18px 30px;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.two {
+    display: flex;
+    margin-top: 90px;
+    text-align: center;
+    padding: 0% 250px;
+}
+
+.two-one {}
+
+.two-two {}
+
+.two-three {
+    margin-top: 180px;
+    text-align: left;
+    margin-left: 60px;
+
+
+}
+
+.two-four {
+    font-size: 3vw;
+    font-weight: 800;
+
+}
+
+.two-five {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(89, 80, 71);
+
+}
+
+.three {
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.three-zero-one {
+    font-weight: 800;
+    font-size: 3vw;
+
+
+}
+
+.three-zero {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    padding: 0% 200px;
+
+}
+
+.three-one {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.h {
+    font-size: 2vw;
+    font-weight: 800;
+    margin-top: 7px;
+}
+
+.three-two {
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(89, 80, 71);
+
+}
+
+.four {
+    
+    margin-top: 90px;
+}
+
+.four-one {
+    background-image:linear-gradient(to right,rgba(214, 112, 16, 0.79),rgba(229, 231, 243, 0.52)),url(images/watch.png);
+    background-repeat: no-repeat;
+    font-size: 2vw;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 240px;
+    background-size: 1020px 300px;
+    
+
+}
+
+.four-two {
+    margin-top: 120px;
+    margin-left: 35px;
+    padding: 50px;
+    color: aliceblue;
+    
+}
+.btnn{
+    color: aliceblue;
+    background-color: orangered;
+    padding: 20px 42px;
+    margin-left: 85px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.t{
+    display: flex;
+    padding: 0% 240px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+    padding: 70px;
+    justify-content: space-between;
+}
+.t-three{
+    margin-top: 90px;
+    font-weight: 800;
+    font-size: 3.5vw;
+    margin-left: 145px;
+    color: white;
+}
+.t-four{
+    color: rgb(7, 7, 7);
+    margin-top: 15px;
+    margin-left: 145px;
+    color: white;
+}
+.i{
+    margin-top: 40px;
+    margin-left: 135px;
+}
+.t-five{
+    
+    padding: 0% 290px;
+}
+.t-six{
+    margin-top: 90px;
+    color: white;
+}
+.t-seven{
+    margin-top: 30px;
+    font-size: 20;
+    padding: 20px 55px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+.btnnn{
+    margin-top: 14px;
+    font-size: 20px;
+    padding: 10px 14.5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: orangered;
+}
