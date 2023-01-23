@@ -1,0 +1,24 @@
+.banner__rating{
+    margin-top: -100px;
+    margin-left: 150px;
+}
+.solid_background{
+    height: 100px;
+}
+.client__image{
+    margin-top: -70px;
+    margin-left: -70px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.floating__card{
+    margin-top: 150px;
+    z-index: 12;
+}
+.bg-gradient{
+    z-index: 11;
+}
+.footer_logo{
+    width: 62px;
+    height: 62px;
+}
