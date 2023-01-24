@@ -1,0 +1,79 @@
+.btn-one{
+    background: #B68C5A;
+    font-size: 18px;
+    color: white;
+}
+.abid-one{
+    margin-top: 60px;
+    height: 600px;
+    background-size: cover;
+    padding: 0 10px;
+    background-image: url(images/banner.png); 
+    background-repeat: no-repeat;  
+    background-position: center;
+    border-radius: 10px;
+}
+.criminal{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.abid-two{
+    margin-top: 60px;
+    height: 600px;
+    background-size: cover;
+    padding: 0 10px;
+    background-image:  linear-gradient(to bottom, rgba(4, 4, 4, 0.915), rgba(80, 90, 99, 0.022)),
+    url(images/banner.png);
+    background-repeat: no-repeat;  
+    background-position: center;
+    border-radius: 10px;
+    
+}
+.abid-three{
+    margin-top: 200px;
+    color: white;
+}
+.abid-five{
+    border-bottom: 2px solid ;
+    
+
+}
+.abid-six{
+    border-right: 2px solid;
+}
+.btn-four{
+    background: #B68C5A;
+    font-size: 18px;
+    color: white;
+    width: 410px;
+    padding-left: 20px;
+    height: 65px;
+}
+.one-one{
+      width: 410px;
+      height: 65px;
+      border: none;
+      background-color: rgba(190, 173, 173, 0.293);
+      border-radius: 5px;
+      padding-left: 20px;
+      
+}
+.one-two{
+    width: 410px;
+    height: 120px;
+    border: none;
+    background-color: rgba(190, 173, 173, 0.293);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.one-six{
+    width: 200;
+    padding: 10px;
+}
+.abid-nine{
+    margin-top: -5px;
+    padding: 10px;
+    background: #B68C5A;
+    border: none;
+    font-size: 20px;
+}
