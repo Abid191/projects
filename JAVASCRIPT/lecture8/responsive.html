@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container-one, .split{
+            width: 50%;
+        }
+        .container-one img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                flex-direction: column-reverse;
+            }
+            .container-one, .split{
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+   <section class="container">
+    <div class="container-one">
+        <img src="data/food.jfif"></img>
+    </div>
+    <div class="split">
+        <img src="data/tiger.jpeg"></img>
+    </div>
+   </section>
+</body>
+</html>

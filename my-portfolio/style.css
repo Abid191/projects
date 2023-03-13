@@ -1,0 +1,27 @@
+.one{
+    background-image:linear-gradient(to bottom, rgba(218, 207, 207, 0.29), rgba(0, 0, 0, 0.915)),
+    url(images/3.jpg);
+    height: 900px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px){
+    .abid{
+        background-image:linear-gradient(to bottom, rgba(218, 207, 207, 0.29), rgba(0, 0, 0, 0.915)),
+    url(images/3.jpg);
+    height: 680px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+.three{
+    height: 540px;
+}
+@media screen and (max-width: 600px){
+    .three{
+        height: auto;
+    }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+                <!-- Background Image -->
+   <div class="one abid">
+    <nav class="lg:bg-slate-700 p-6 ">
+    
+      <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-orange-500 hover:border-orange-700" id="menu-toggle">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div >
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto " id="nav-content">
+        <div class="">
+          <h1 class=" text-white font-bold text-2xl lg:ml-40">Cod <span class="text-red-500">ER</span></h1>
+        </div>
+        <div class=" ml-auto text-white font-semibold text-1xl mr-20  ">
+          <a href="home.html" class="block mt-4 lg:inline-block lg:mt-0 hover:text-orange-600 mr-4">
+            Home
+          </a>
+          <a href="service.html" class="block mt-4 lg:inline-block lg:mt-0  hover:text-orange-600 mr-4 lg:px-10">
+            About Me
+          </a>
+          <a href="about us.html" class="block mt-4 lg:inline-block lg:mt-0  hover:text-orange-600 mr-4">
+            Service
+          </a>
+          <a href="about us.html" class="block mt-4 lg:inline-block lg:mt-0  hover:text-orange-600 mr-4 lg:px-10">
+            Portfolio
+          </a>
+          <a href="about us.html" class="block mt-4 lg:inline-block lg:mt-0  hover:text-orange-600 mr-4">
+            Contact Me
+          </a>
+        </div>
+      
+      </div>
+    </nav>
+    
+    <div class=" lg:mt-96 lg:ml-48 ml-20 mt-20 ">
+      <h3  class="text-white px-2">  <span class="bg-red-800 w-20 px-2 mr-5 rounded"> Hello</span> i'm
+      </h3>
+      <h1 class=" text-white font-bold text-4xl mt-5">
+        Abid Hasan
+      </h1>
+      <h1 class=" text-white font-bold text-4xl mt-5">
+        <span class="text-red-800" id="typing"></span>
+      </h1>
+      <p class="mt-5 text-white font-semibold">As a web developer, I have experience creating <br> dynamic and responsive websites using a  variety <br> technologies such as HTML, CSS, JavaScript, <br> and frameworks like React and Angular.....</p> 
+    </div>
+
+       <!-- script  -->
+    <script>
+      const toggleButton = document.querySelector("#menu-toggle");
+      const navContent = document.querySelector("#nav-content");
+    
+      toggleButton.addEventListener("click", () => {
+        navContent.classList.toggle("block");
+        navContent.classList.toggle("hidden");
+      });
+
+    </script>
+   
+ <script src="one.js"></script>    
+   </div>
+
+     <!-- 2nd Position -->
+ 
+     <section class="lg:flex justify-evenly lg:bg-zinc-900 bg-zinc-900 ">
+      <div class="lg:w-4/12 lg:h-4/12 w-10/12 lg:mt-20 rounded-sm ml-8 py-10">
+       <img src="images/4.jpg" alt="">
+      </div>
+      <div class="lg:mt-32 text-white lg:w-3/12 w-10/12 text-center ml-8 py-10">
+        <h1 class="lg:text-4xl text-2xl font-semibold ">
+          About <span class="text-red-800">Me</span>
+        </h1>
+        <h1 class="lg:text-2xl font-semibold mt-5">
+           <span class="text-red-800">Front-End</span> Developer
+        </h1>
+
+       <h3 class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum modi tempora maiores labore suscipit, earum dolores reiciendis. Possimus amet corporis asperiores fugit laborum ipsam et facere repellendus iusto officiis! Magnam autem ratione odio laudantium possimus, molestiae, culpa aliquam quas asperiores, saepe neque porro reiciendis quisquam? Eaque at doloribus perspiciatis modi suscipit voluptate amet debitis porro. Facere nobis consectetur est eos, corporis eligendi illum dolore laudantium nesciunt maxime odio incidunt repudiandae accusamus. Saepe cupiditate tempore nam possimus sapiente fuga necessitatibus.
+      </div>
+     </section>
+  
+     <!-- 3rd Position -->
+    <section class="bg-zinc-900 text-center">
+      <p class="text-slate-400 pt-10">What i'm Expert in </p>
+      <h1 class="bg:text-5xl text-3xl text-white font-bold mt-3"><span class="text-red-700">My </span> Service</h1>
+      </div>
+    </section>
+
+  <div class="grid lg:grid-cols-3 grid-rows-3 bg-zinc-900  text-white lg:px-20 lg:gap-5 three">
+    <div class="lg:pl-5 lg:mt-16 bg-zinc-800 rounded p-10 text-center transform hover:scale-105 duration-500 mt-8 lg:h-96 lg:w-80 h-96 w-72 mx-auto">
+      <span class="material-symbols-outlined">
+        computer
+        </span>
+        <h1 class="text-2xl font-bold mt-3"><span class="text-red-800">My</span> Design</h1>
+        <p class="text-slate-500 mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing . <br> Placeat eveniet doloribus maiores asperiores dolore. <br>  Eius quod quia nulla ipsum quas incidunt commodi , <br> officia temporibus ea veniam perspiciatis, at neque.</p>
+
+        <button class="bg-slate-700 px-4 py-2 rounded mt-5">Read More</button>
+    </div>
+    <div class="lg:pl-5 lg:mt-16 bg-zinc-800 rounded p-10 text-center transform hover:scale-105 duration-500 mt-8 lg:h-96 lg:w-80 h-96 w-72 mx-auto">
+      <span class="material-symbols-outlined lg:-mt-0 -mt-5">
+        code_off
+        </span>
+        <h1 class="text-2xl font-bold  lg:mt-3 "><span class="text-red-800">Web</span> Development</h1>
+        <p class="text-slate-500 lg:mt-2 ">Lorem ipsum dolor sit, amet consectetur adipisicing . <br> Placeat eveniet doloribus maiores asperiores dolore. <br>  Eius quod quia nulla ipsum quas incidunt commodi , <br> officia temporibus ea veniam perspiciatis, at neque.</p>
+
+        <button class="bg-slate-700 px-4 py-2 rounded lg:mt-5 mt-3">Read More</button>
+    </div>
+    <div class="lg:pl-5 lg:mt-16 bg-zinc-800 rounded p-10 text-center transform hover:scale-105 duration-500 mt-8 lg:h-96 lg:w-80 h-96 w-72 mx-auto">
+      <span class="material-symbols-outlined">
+        border_color
+        </span>
+        <h1 class="text-2xl font-bold mt-3"><span class="text-red-800">Creative</span> Design</h1>
+        <p class="text-slate-500 mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing . <br> Placeat eveniet doloribus maiores asperiores dolore. <br>  Eius quod quia nulla ipsum quas incidunt commodi , <br> officia temporibus ea veniam perspiciatis, at neque.</p>
+
+        <button class="bg-slate-700 px-4 py-2 rounded mt-5 ">Read More</button>
+    </div> 
+    </div>
+   
+    <!-- Third part  -->
+   
+      <div class="bg-zinc-900 text-center lg:pt-0 pt-10 ">
+        <p class="text-center text-slate-400 lg:pt-0 ">Projects</p>
+        <h1 class="text-4xl font-bold text-slate-200 lg:mt-4 lg:mb-0 mb-2 lg:pb-0 pb-32"><span class="text-red-800">Latest</span> Project</h1>
+
+        <div class="flex min-h-screen items-center justify-evenly bg-zinc-900 -mt-16 lg:mb-36">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/6.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold  group-hover:translate-y-0 transition-all  duration-500 text-yellow-300">Design</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/5.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold text-yellow-300 group-hover:translate-y-0 transition-all  duration-500">Design</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/7.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold text-yellow-300 group-hover:translate-y-0 transition-all  duration-500">Design</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="flex min-h-screen items-center justify-evenly bg-zinc-900 -mt-80 ">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/8.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold text-yellow-300 group-hover:translate-y-0 transition-all  duration-500">Desing</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/9.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold text-yellow-300 group-hover:translate-y-0 transition-all  duration-500">Design</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+              <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+                  <div class="h-96 w-72">
+                      <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="images/10.jpg" alt="">
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+                  <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[100%] group-hover:translate-y-0 transition-all duration-500 bg-gradient-to-b from-transparent to-lime-500">
+                      <h1 class="text-4xl font-bold text-yellow-400 group-hover:translate-y-0 transition-all  duration-500">Desing</h1>
+                      <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-500 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    
+     <!-- fourth part  -->
+ 
+     <section class="lg:flex lg:justify-evenly bg-zinc-900">
+      <div class="lg:mt-40 ml-5 lg:pt-0 pt-10">
+        <h1 class="lg:text-4xl text-2xl font-bold text-slate-200 lg:-mt-12 ">Contact <span class="text-red-800">Me!</span></h1>
+        <h3 class="text-white mt-2">If You Have Any Project In Your Mind</h3>
+        <p class="text-slate-400 mt-3">As a web developer, I have experience creating <br> dynamic and responsive websites.....</p>
+        <p class="text-lime-300 mt-5">
+          Phone : 01790374565 <br> 
+          Email : Abid15-12563@diu.edu.bd <br> 
+          Like & Subscribe
+
+        </p>
+      </div>
+
+      <!-- 2nd  -->
+      <div class="lg:ml-0 ml-5 lg:mt-0 mt-10 pb-10">
+        <h1 class="text-red-900"> <---- Type Here With Your Details ---->  </h1>
+         <div>
+          <input class="mt-5 bg-zinc-800 lg:w-96 p-2 rounded hover:scale-105 duration-500" type="text" placeholder="Your Name">
+         </div>
+         <div>
+          <input class="bg-zinc-800 lg:w-96 p-2 mt-4 rounded hover:scale-105 duration-500" type="text" placeholder="Your Email Adress">
+         </div>
+         <div>
+          <input class="bg-zinc-800 lg:w-96 p-2 mt-4 rounded hover:scale-105 duration-500" type="text" placeholder="Your Mobile Number">
+         </div>
+         <div>
+          <textarea class="bg-zinc-800 mt-5 p-2 rounded hover:scale-105 duration-500" placeholder="How can i help you" name="" id="" lg:cols="48" cols="30" rows="10"></textarea>
+         </div>
+         <div>
+          <button class="mt-2 bg-red-900 text-slate-200 p-2 rounded hover:scale-105 duration-500">Send Massage</button>
+         </div>
+      </div>
+
+     </section>
+
+    </body>
+    </html>
+     
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="flex min-h-screen items-center justify-center bg-neutral-800">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div class="group relative items-center justify-center overflow-hidden cursor-pointer">
+            <div class="h-96 w-72">
+                <img class="h-full w-full object-cover group-hover:rotate-0 group-hover:scale-125 transition-transform" src="img/3.jpg" alt="">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+            <div class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[70%] group-hover:translate-y-0 transition-all duration-500">
+                <h1 class="text-4xl font-bold text-black group-hover:translate-y-0 transition-all  duration-500">Beautiful</h1>
+                <p class="text-2xl italic text-white group-hover:opacity-100 transition-opacity duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat aliquid perspiciatis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="fixed bottom16">
+        <p class="text-2xl font-semibold text-white">All images are from <a href="img/3.jpg" class="text-blue-500"></a></p>
+    </div>
+
+   </div>
+</body>
+</html>

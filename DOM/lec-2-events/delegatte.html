@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delegatte</title>
+</head>
+<body>
+    <h1>
+        sob delete koira dibo
+    </h1>
+    <ul id="abc">
+        <li class="item">Lorem, ipsum dolor.</li>
+        <li class="item">Nisi, adipisci cumque!</li>
+        <li class="item">Aperiam, quae voluptatibus?</li>
+        <li class="item">Possimus, quia tempore!</li>
+        <li class="item">Adipisci, dolore iure!</li>
+        <li class="item">Corporis, provident dicta.</li>
+    </ul>
+    <button id="">delete</button>
+    <script>
+        const items = document.getElementsByClassName('item');
+        for ( const item of items ){
+            item.addEventListener('clcik',function(){
+                event.target.parentNode.removeChild(event.target)
+            })
+        }
+
+
+        // const items = document.getElementsByClassName('item');
+        // for (const item of items){
+        //     item.addEventListener('click',function(){
+        //         event.target.parentNode.removeChild(event.target)
+        //     })
+        // }
+    </script>
+</body>
+</html>

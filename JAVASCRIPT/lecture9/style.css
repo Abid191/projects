@@ -1,0 +1,49 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+
+.row-f, .row-sec{
+    display: flex;
+    gap: 5px;
+}
+
+.row-sec, div {
+    flex: 1;
+}
+
+.row-t {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+
+div {
+    height: calc(500 - 5px/2);
+}
+
+.c {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+div {
+    flex: 1;
+}
+@media screen and (max-width:577px){
+    .row-f, .row-sec{
+        flex-direction: column;
+    }
+    .c{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}

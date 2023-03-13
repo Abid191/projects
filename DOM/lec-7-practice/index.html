@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="style.css">
+    <title>Money Master</title>
+</head>
+<body>
+    <h1 class="text-center text-sky-600 text-5xl mt-10 font-bold">Money Master</h1>
+
+    <section>
+        <div class="container mx-auto mt-10 mb-20 grid ">
+            <div class="row flex gap-8 ">
+                <div class="col-12 col-md-6 grid-cols-1 ">
+                    <img class="h" src="img/md.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 bg-slate-300 mx-auto w pb-10 grid-cols-1">
+                    <div class="">
+                    <h2 class="text-center mt-20 text-3xl">Income</h2>
+                    <h2  class="p-5 text-center text-2xl mt-5 -ml-3"> income: <input id="income" class="py-2" type="text" value=""></h2>
+                    <h2></h2>
+                    </div>
+                    <h2 class="text-center text-3xl">Expenses</h2>
+                    <div class="text-center">
+                        <h2 class="p-5 text-center text-2xl  ml-4"> Food: <input id="food" class="py-2"  type="text"></h2>
+                        <h2 class="p-5 text-center text-2xl  ml-4"> Rent: <input id="rent" class="py-2"  type="text"></h2>
+                        <h2 class="p-5 text-center text-2xl  -ml-4"> Clothes: <input id="cloth" class="py-2"  type="text"></h2> <br>
+                        <button id="calculate" class=" text-white bg-blue-700 px-8 py-2 rounded text-2xl">Calculate</button>
+                    </div>
+                    <div class="text-center mt-4">
+                        <h2 class="text-2xl font-semibold">Total Expenses: <span id="total-expense"> 00</span></h2>
+                        <h2 class="text-2xl font-semibold mt-5">Balance: <span id="balance">00</span></h2>
+                    </div>
+                    <div class=" mt-5 text-center">
+                        <h2 class="text-2xl">save: <span class="bg-slate-500 px-14 py-2">20</span> <span class="ml-5">%</span>  <button class="ml-5 bg-blue-700 px-14 py-2 text-white">save</button>  </h2>
+                    </div>
+                    <div class="text-center mt-4">
+                        <h2 class="text-2xl font-semibold">Saving Amount: <span id="saving">00</span></h2>
+                        <h2 class="text-2xl font-semibold mt-5">Remaining Balance: <span id="remaining-balance">00</span></h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="calculate.js"></script>
+    </section>
+</body>
+</html>

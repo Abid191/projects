@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Area Calculator</title>
+</head>
+<body>
+    <!-- nav  -->
+    <div class="navbar bg-sky-200 text-neutral-content text-start">
+        <div class="flex-col text-2xl  ">
+            <h1 class="-ml-12 text-slate-700 font-bold">Interactive </h1>
+            <h1 class="text-gray-500 text-1xl font-semibold ml-5"> Geometry Genius<br></h1>
+        </div> 
+        <a class="btn btn-ghost normal-case text-xl ml-auto mr-5 bg-violet-800 px-8">Blog</a>
+      </div>
+
+    
+
+
+    <!-- navEnd -->
+    <div class="flex gap-5">
+        <div class="card w-96 bg-base-100 shadow-xl mt-8">
+            <figure class="px-10 pt-10">
+              <img src="images/triangle.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Triangle</h2>
+              <p>Area (A) = 0.5*b*h</p>
+              <div>
+                <h3><input type="text" placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+              </div>
+              <div class="card-actions">
+                <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl mt-8">
+            <figure class="px-10 pt-10">
+              <img src="images/rectangle.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Rectangle</h2>
+              <p>Area (A) = w*I</p>
+              <div>
+                <h3><input type="text"placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+              </div>
+              <div class="card-actions">
+                <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-100 shadow-xl mt-8">
+            <figure class="px-10 pt-10">
+              <img src="images/parallelogram.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Parallelogram</h2>
+              <p>Area (A) = b*h</p>
+              <div>
+                <h3><input type="text"placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+              </div>
+              <div class="card-actions">
+                <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-100 shadow-xl mt-8 text-center">
+            <h1 class="text-2xl font-semibold">Area calculation</h1> <hr class="border-y-slate-900 mx-20 text-black border-y-2">
+          </div>
+
+    </div>
+
+    <div>
+        <div class="flex gap-5">
+            <div class="card w-96 bg-base-100 shadow-xl mt-8">
+                <figure class="px-10 pt-10">
+                  <img src="images/rhombus.png" alt="" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Rhombus</h2>
+                  <p>Area (A) = 0.5*d1*d2</p>
+                  <div>
+                    <h3><input type="text"placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex gap-5">
+                <div class="card w-96 bg-base-100 shadow-xl mt-8">
+                    <figure class="px-10 pt-10">
+                      <img src="images/pentagon.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Pentagon</h2>
+                      <p>Area (A) = 0.5*p*b</p>
+                      <div>
+                        <h3><input type="text"placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex gap-5">
+                    <div class="card w-96 bg-base-100 shadow-xl mt-8">
+                        <figure class="px-10 pt-10">
+                          <img src="images/ellipse.png" alt="" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Ellipse</h2>
+                          <p>Area (A) =3.14*a*b</p>
+                          <div>
+                            <h3><input type="text"placeholder="b" class="w-20 bg-slate-300 text-center"> cm <input type="text"placeholder="h" class="w-20 bg-slate-300 text-center"> cm</h3>
+                          </div>
+                          <div class="card-actions">
+                            <button class="btn text-white py-2 px-24 mt-5 bg-sky-700">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+    </div>
+
+    <script src="information.js"></script>
+</body>
+</html>

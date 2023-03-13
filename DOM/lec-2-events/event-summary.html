@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event-summary</title>
+</head>
+
+<body>
+
+    <br>
+    <h1> Event Dom handler</h1>
+
+    <h3 id="hanle-status">Defult Text</h3>
+    <p id="input-text-display"> default Input Text</p>
+
+    <input id="input-field" type="text">
+    <button id="btn-update">Update</button>
+    <br>
+    <br>
+
+
+    <button onclick="handleOnClick()">Handle event by onclik Function</button>
+    <button onclick="rightOnClick()">Another</button>
+
+
+    <script>
+        function handleOnClick() {
+            const handlerStatus = document.getElementById('hanle-status')
+            handlerStatus.innerText = 'Handle by attached on click attribute';
+
+        }
+
+        function rightOnClick() {
+            const defult = document.getElementById('hanle-status');
+            defult.innerText = 'Defult Text';
+        }
+        //    option2
+
+        document.getElementById('btn-update').addEventListener('click', function () {
+            const inputfiled = document.getElementById('input-field');
+            const inputText = inputfiled.value;
+
+            const p = document.getElementById('input-text-display');
+            p.innerText = inputText; 
+            inputfiled.value=''
+        })
+
+    </script>
+
+
+</body>
+
+</html>

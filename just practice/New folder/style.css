@@ -1,0 +1,7 @@
+.one{
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+}

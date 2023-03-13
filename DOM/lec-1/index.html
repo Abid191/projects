@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dom</title>
+</head>
+<body>
+    <header class="text-pink-500 ml-20 mt-20">
+        <h1 class="text-2xl">Welcome to my Dom</h1>
+        <p class="mt-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex vel temporibus, voluptate natus est expedita accusamus, adipisci aspernatur, sequi ipsum sed? Recusandae ut amet itaque at labore aut dignissimos perferendis!</p>
+    </header>
+
+    <main id="main-content" class="ml-20">
+        <section class="mt-10 text-green-400">
+            <h1 id="ff" class="text-2xl">My Awesome Dom</h1>
+            <ul class="mt-10 Abid">
+                <li class="Abid">jalali</li>
+                <li class="Abid">safayet</li>
+                <li class="Abid">bonobash</li>
+                <li class="Abid">Dom de re</li>
+            </ul>
+        </section>
+        <section id="fruits" class="mt-10 text-red-500">
+            <h1 id="Fruits" class="text-2xl text-red-500 fruit-container hasan mia vai ">Fruits i Like</h1>
+            <ul class="mt-10">
+                <li>apple</li>
+                <li>banana</li>
+                <li>carrot</li>
+            </ul>
+        </section>
+
+        <section class="mt-10 text-red-500 place-container">
+            <h2 class="text-2xl text-red-500 ">Places i like to visit</h2>
+            <ul id="places-list" class="mt-10 Abid place-container">
+                <li>sundarban</li>
+                <li> bandarban</li>
+                <li> saintmartin</li>
+                <li>dhaka</li>
+            </ul>
+        </section>
+    </main>
+
+<script>
+  const Places = document.getElementsByClassName('Abid');
+  for(const Place of Places ){
+    // console.log(Place.innerText)
+  }
+
+  const someli = document.querySelectorAll('.place-container li')
+  for(const li of someli){
+    // console.log(li.innerText)
+  }
+
+</script>
+
+
+
+
+
+
+<script src="1st.js"></script>
+<script src="stylein.js"></script>
+<script src="append.js"></script>
+</body>
+</html>
